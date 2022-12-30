@@ -1,4 +1,4 @@
-import math
+
 a=int(input("enter a:")) 
 b=int(input("enter b:"))
 c=int(input("enter c:")) 
@@ -8,9 +8,9 @@ if a==0:
     print("enter the coefficients correctly")
 elif d>0:
     print("real and different roots")
-    print((-b+sq)/(2*a))
-    print((-b-sq)/(2*a))
+    print(-b+(sq)**0.5/(2*a))
+    print(-b-(sq)**0.5/(2*a))
 else:
     print("complex roots")
-    print((-b+sq)/(2*a))
-    print((-b-sq)/(2*a))
+    print(-b+(sq)**0.5/(2*a))
+    print(-b-(sq))**0.5/(2*a))
