@@ -1,0 +1,6 @@
+c=input("enter any character:")
+if( c.isupper()):
+    print(c,"is in lower case")
+else:
+    print(c.upper())
+    
