@@ -1,0 +1,7 @@
+c=input("enter any character")
+if ( c.isupper()):
+    print(c,"is in upper case")
+elif (c.islower()):
+    print(c,"is in lower case")
+else:
+    print(c,"enter a proper character")
